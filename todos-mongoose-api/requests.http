@@ -1,0 +1,23 @@
+# GET http://localhost:3000/lists
+
+# POST http://localhost:3000/lists
+# Content-Type: application/json
+
+# {"id":"a0c6052b-2e9a-416d-94fd-05a605b29f2e","name":"fefef","tasks":[],"image":"src/assets/images/3.png","date":"2025-10-31T13:42:03.796Z","editing":false}
+
+
+# PUT http://localhost:3000/lists
+# Content-Type: application/json
+
+#  {
+#     "_id": "6908e08b077d78fb0393cb0d",
+#     "name": "move"
+#  }
+
+# DELETE http://localhost:3000/lists
+# Content-Type: application/json
+
+#  {
+#     "_id": "6908e08b077d78fb0393cb0d",
+#     "name": "hi"
+#  }

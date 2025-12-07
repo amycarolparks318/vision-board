@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    .link {
+        color: var(--primary1);
+        font-family: fun;
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.home-nav {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.home-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 869px) {
+    .nav-box {
+        width: 60%;
+    }
+
+    .home-nav {
+        justify-content: center;
+    }
+}

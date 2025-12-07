@@ -1,0 +1,35 @@
+.create-plan {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 3rem;
+   gap: 1rem;
+}
+
+.plan-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 2rem;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.plan {
+   border: 2px solid var(--primaryDark1);
+   padding: 1rem;
+}
+
+.add-time {
+   width: 15%;
+}
+
+.plan-title {
+   color: var(--primary);
+   text-align: center;
+}
+
+.date-time {
+   background-color: var(--primaryDark1);
+}

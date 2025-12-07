@@ -1,0 +1,22 @@
+image: node:22-alpine
+
+stages: 
+  - lint
+  - test
+
+lint app:
+  stage: lint
+  script: 
+    - npm install
+    - npm run lint 
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR
+    exclude:
+      - .git
+      - .git/**/*
+
+test app:
+  stage: test
+  script: 
+    - npm run coverage

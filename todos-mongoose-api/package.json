@@ -1,0 +1,23 @@
+{
+  "name": "todos-mongoose-api",
+  "version": "1.0.0",
+  "description": "Create a CRUD (Create, Read, Update, Delete) RESTful API application using Express.js and Mongoose.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lowell.perseverenow.org:cohort-02/aparks/todos-mongoose-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.20.1"
+  }
+}

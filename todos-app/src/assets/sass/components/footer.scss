@@ -1,0 +1,15 @@
+
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 1.1rem;
+     background: radial-gradient(var(--primary1) 35%, var(--baseDark1), var(--baseDark1));
+     justify-content: center;
+}
+
+.icon-footer{
+    width: 50px;
+}
